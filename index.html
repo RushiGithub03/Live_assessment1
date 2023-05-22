@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poster-3</title>
+  </head>
+  <body>
+    <h1>Table</h1>
+
+    <hr style="color: #858585" />
+
+    <table border="1px" style="color: #51baac">
+      <tr style="color: black">
+        <th>Employee ID</th>
+        <th>Name</th>
+
+        <th colspan="2">Mobile No</th>
+        <!-- here we have to make colspan="2" -->
+      </tr>
+      <tr style="color: black">
+        <td>1001</td>
+        <td>Rusta</td>
+        <td>0988865576</td>
+      </tr>
+      <tr style="color: black">
+        <td>1002</td>
+        <td>Jyoti</td>
+        <td>0988865576</td>
+        <td>0988865576</td>
+      </tr>
+      <tr style="color: black">
+        <td>1003</td>
+        <td>Sharath</td>
+        <td>0988865576</td>
+      </tr>
+    </table>
+
+    <h1>Registration Page</h1>
+    <hr style="color: #858585" />
+
+    <form action="indexsubmit.html" method="get">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="username" /> <br />
+      <br />
+      <label for="emailid">Email id:</label>
+      <input type="email" id="emailid" name="useremail" /> <br />
+      <br />
+      <label for="pass">Password:</label>
+      <input type="password" id="pass" name="userpassword" /> <br />
+      <br />
+      <label for="gender">Gender:</label>
+      <input type="radio" id="Female" name="usergender" value="Female" />
+      <label for="Female">Female</label>
+      <input type="radio" id="Male" name="usergender" value="Male" />
+      <label for="Male">Male</label>
+      <br /><br />
+
+      <label for="language">Language:</label>
+      <input type="checkbox" id="Hindi" name="userlang1" value="Hindi" />
+      <label for="Hindi">Hindi</label>
+      <input type="checkbox" name="userlang2" id="English" value="English" />
+      <label for="English">English</label>
+      <input type="checkbox" id="Gujrati" name="userlang3" value="Gujrati" />
+      <label for="Gujrati">Gujrati</label> <br />
+      <br />
+
+      <label for="age">Age:</label>
+
+      <select name="userage" id="age">
+        <option value="Select one" selected disabled>Select one</option>
+        <option value="20">20</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>How do PrepBytes Prepare for coding interviews?</h2>
+    <hr style="color: #858585" />
+
+    <ol type="A">
+      <li>
+        Java Progamming language is designed to build object-oeriented
+        applications
+      </li>
+      <li>
+        Java is a multithreaded language with automic memory management.In java,
+        there is feature called WORA i.e. write once run anywhere after
+        compilation.
+        <ul style="list-style-type: circle">
+          <li>Unordered List</li>
+        </ul>
+      </li>
+    </ol>
+
+    <ol type="I">
+      <li>
+        Data Structure. Array. Graph. Heap. Segment Tree. Stack. Queue. Tree.
+        Tries.
+      </li>
+      <li>
+        Algorith. Backtracking. Dynamic Programming. Greedy Algorithm.
+        Searching. Sorting.
+      </li>
+      <li>
+        Other Topics. Computational Geometry. Game Theory. Maths. Pointers.
+        Recursion. String.
+      </li>
+    </ol>
+
+    <h2>Link</h2>
+    <hr style="color: #858585" />
+    <a href="https://www.prepbytes.com">The link should be open Same tab</a>
+    <br />
+    <br />
+    <a href="https://www.prepbytes.com" target="_blank"
+      >The link should be open New Tab
+    </a>
+    <br />
+
+    <h2>Image with full width</h2>
+    <hr style="color: #858585" />
+
+    <img
+      src="./images/image.jpg"
+      height="300px"
+      width="100%"
+      alt="Prepbytes Live coding session image not found"
+    />
+  </body>
+</html>
